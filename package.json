@@ -5,22 +5,32 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.23"
+    "@heroicons/react": "^2.2.0",
+    "glob": "^9.3.5",
+    "next": "14.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "rimraf": "^4.4.1",
+    "three-mesh-bvh": "^0.8.3"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@react-three/drei": "^9.121.3",
+    "@react-three/fiber": "^8.17.12",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
+    "framer-motion": "^12.0.5",
+    "postcss": "^8.4.25",
+    "react-intersection-observer": "^9.15.1",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.23"
+    "three": "^0.172.0",
+    "typescript": "^5.2.2"
+  },
+  "overrides": {
+    "three-mesh-bvh": "^0.8.3",
+    "three": "^0.172.0"
   }
 }
