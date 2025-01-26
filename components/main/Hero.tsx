@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroContent from '../sub/HeroContent'
 
+
 const Hero = () => {
   return (
     <div className="relative flex flex-col h-full  w-full" id='about-me'>
@@ -8,6 +9,7 @@ const Hero = () => {
         <source src='/blackhole.webm' type='video/webm' />
       </video>
       <HeroContent/>
+     
     </div>
   )
 }
