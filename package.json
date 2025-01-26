@@ -13,6 +13,7 @@
     "next": "14.x",
     "react": "18.x",
     "react-dom": "18.x",
+    "react-icons": "^5.4.0",
     "rimraf": "^4.4.1",
     "three-mesh-bvh": "^0.8.3"
   },
